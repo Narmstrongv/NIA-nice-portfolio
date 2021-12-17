@@ -35,8 +35,8 @@
 .u-section-1 .u-social-icons-1 {
   height: 50px;
   min-height: 16px;
-  width: 131px;
-  min-width: 63px;
+  width: 212px;
+  min-width: 110px;
   margin: 42px auto 60px;
 }
 
@@ -45,6 +45,10 @@
 }
 
 .u-section-1 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-3 {
   height: 100%;
 }
 
@@ -190,7 +194,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1021px;
+  min-height: 1044px;
 }
 
 .u-section-3 .u-gallery-1 {
@@ -233,12 +237,48 @@
 
 .u-section-3 .u-text-3 {
   text-align: center;
-  margin: -36px 33px 60px auto;
+  margin: -36px 33px 0 auto;
+}
+
+.u-section-3 .u-social-icons-1 {
+  height: 50px;
+  min-height: 16px;
+  width: 50px;
+  min-width: 16px;
+  margin: 20px auto 0 77px;
+}
+
+.u-section-3 .u-icon-1 {
+  height: 100%;
+}
+
+.u-section-3 .u-social-icons-2 {
+  height: 50px;
+  min-height: 16px;
+  width: 50px;
+  min-width: 16px;
+  margin: -50px 106px 0 auto;
+}
+
+.u-section-3 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-3 .u-social-icons-3 {
+  height: 50px;
+  min-height: 16px;
+  width: 50px;
+  min-width: 16px;
+  margin: -50px auto 50px;
+}
+
+.u-section-3 .u-icon-3 {
+  height: 100%;
 }
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 894px;
+    min-height: 917px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -248,11 +288,15 @@
   .u-section-3 .u-gallery-inner-1 {
     grid-template-columns: repeat(3, auto);
   }
+
+  .u-section-3 .u-social-icons-1 {
+    margin-right: 62px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1670px;
+    min-height: 1693px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -266,7 +310,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 3388px;
+    min-height: 3411px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -280,11 +324,19 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 2243px;
+    min-height: 2266px;
   }
 
   .u-section-3 .u-gallery-1 {
     height: 1947px;
+  }
+
+  .u-section-3 .u-social-icons-1 {
+    margin-top: -2px;
+  }
+
+  .u-section-3 .u-social-icons-3 {
+    margin-bottom: 60px;
   }
 } .u-section-4 {
   background-image: none;
